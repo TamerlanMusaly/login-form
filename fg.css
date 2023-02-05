@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: linear-gradient(red,orange,yellow,green,blue,blueviolet,violet);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.class{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+.class2{
+    text-align: center;
+}
+input{
+    border: none;
+    background-color: gainsboro;
+    height: 40px;
+    width: 220px;
+outline: none;
+}
+fieldset{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 300px;
+    width: 390px;
+    margin: 0 auto;
+    background-color: white;
+}
+.class6{
+    background: linear-gradient(-90deg, green,rgb(0, 170, 255));
+    height: 30px;
+    width: 220px;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+.class4{
+    margin-top: 15px;
+}
+.class7{
+    color: green;
+}
+.class8{
+    color: gray;
+    padding: 8px;
+}
+.divv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
